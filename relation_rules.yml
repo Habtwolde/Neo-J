@@ -1,0 +1,55 @@
+# relation_rules.yml
+#
+# No regexes anymore — this is just graph configuration
+# used by descriptions_to_graph_llm.py.
+
+record:
+  label: "Record"
+  id_prefix: "DESC_"
+
+entities:
+  PERSON:
+    labels: ["Entity", "Person"]
+  ORG:
+    labels: ["Entity", "Organization"]
+  ORGANIZATION:
+    labels: ["Entity", "Organization"]
+  GPE:
+    labels: ["Entity", "Location"]
+  LOCATION:
+    labels: ["Entity", "Location"]
+  MONEY:
+    labels: ["Entity", "Money"]
+  DATE:
+    labels: ["Entity", "Date"]
+  DOCUMENT:
+    labels: ["Entity", "Document"]
+  OTHER:
+    labels: ["Entity", "Other"]
+  DEFAULT:
+    labels: ["Entity"]
+
+relationships:
+  DEFAULT:
+    type: "RELATED_TO"
+
+  WORKS_FOR:
+    type: "WORKS_FOR"
+
+  ASSOCIATED_WITH:
+    type: "ASSOCIATED_WITH"
+
+  ASSOCIATED_WITH_ORG:
+    type: "ASSOCIATED_WITH_ORG"
+
+  DEPARTED_FROM:
+    type: "DEPARTED_FROM"
+
+  ARRIVED_AT:
+    type: "ARRIVED_AT"
+
+  LIVES_IN:
+    type: "LIVES_IN"
+
+  TRAVELED_SAME_FLIGHT:
+    type: "TRAVELED_SAME_FLIGHT"
