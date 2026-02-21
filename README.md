@@ -58,25 +58,6 @@ You get structured, queryable intelligence from raw human language.
 
 ------------------------------------------------------------------------
 
-## 📸 Screenshots (Placeholders)
-
-> Replace these with real screenshots later --- GitHub ranking improves
-> heavily with visuals.
-
-### Graph Visualization
-
-![Graph Preview](docs/images/graph_preview.png)
-
-### Data Extraction Logs
-
-![Logs](docs/images/logs.png)
-
-### Neo4j Browser Query Result
-
-![Query](docs/images/query.png)
-
-------------------------------------------------------------------------
-
 ## ✨ Features
 
 -   Fully automated entity & relationship extraction
